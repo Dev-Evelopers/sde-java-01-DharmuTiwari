@@ -35,12 +35,9 @@ public class RepeatedSubString
         for (char c : charList) {
             sb.append(c);
         }
-
         String result = sb.toString();
      System.out.print("The shortest substring that contains all letters is : \"" + result + "\"");
 
         sc.close();
-       
-    
 }
 }
