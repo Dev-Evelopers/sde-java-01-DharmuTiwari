@@ -71,7 +71,7 @@ class InnovaCrysta extends Car {
 public class CarDetails {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
+ // 0 for WagonR, 1 for HondaCity, 2 for InnovaCrysta
         int choice = sc.nextInt();   
         int mileage = sc.nextInt();  
         Car car = null;
